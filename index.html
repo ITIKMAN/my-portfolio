@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Resume</title>
+</head>
+<body>
+    <section>
+        <div class="block block--sm block--header">
+            <div class="logo"></div>
+            <h1>Yro Dienzo</h1>
+            <h5>Palamunin</h5>
+            <hr />
+            <div class="social-links">
+                <i class="fa fa-github" aria-hidden="true"><a href="https://github.com/ITIKMAN" target="_blank"><img  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAA6pJREFUWEeVV4Fx4zAMAz1Jf5JPJmk9ybeTNJkk6STNJMYfJVoWJSp2fJdro1gyCYIgLGgvAcBudbxw5P4j99gTpL73yL4j9z89J/0oENDnXdY1Mjuhe9iRCAPs7OwY6Z2M9OeXLt2wkG8A3gGcAOj/+nnYQfpXP1cRub90uGFzmB8k/wH4zBuUaE0+/dKDwGUS+dJ7U5l2UHcciiMTLFxOQnxDEhIvXBYh8YDkwFxAQfmqFOPQPSoWS4eEX6i/pf+3hU9JaD0vyvBXkjfjySiSYD0opS/xRUTmLX1fyqpkHqEOmSOUGcXSpzxEKuwykto9ik59zfblL4CPg0TSbrsA+NHzmlLOk4j+5q4cUEMfcvkFpBBYD5okgZnBzwFrx61trQ/UxnuDQAPWvdr2l/VocrkBovvW6yEif0r32WqHEEnN/rsOm8B9Ejn3ubBLxue3ZdrzMZ22la4SZ/ccLvzV9m7oYNmEIR2qnke9nJ7Obbu/ZMmswL/BE+5iCO1PE3/HOka4LDdCTmtJqoTPk8h9neeuZFG5LLjzcAwcmbaZd6NkVTDnICABuXyD+GgmQkHnWW2OxJV4RJyenZ91yE5byJvkgVlPqiRkh4hSdUpkqULVBxw/3Swjqfx5awbnrtyH/qXLIM3ED2k6WJ1Bbv98OQ4lhBKkap5U0tPVIzQYihmVMe0HCEFU46xUbrguXErJqgQzh+rads/c8xSZAyRV35LKV13mEq6UOpG68jtlVwfpnuUehUfSb81W4DLJZF1WqpKhJhc/w7Y0LIvAC++UaUW6SErnTTDriFkZ1OpQqBVU4mUufe0LY9+P0bCufJLTuGiW1R5Ip3Uesub6CFwnkdU/P210E8N3EJ+t27WNncZFAaWyGbLqn69m6M1LJwOfPpE+aRAE3k3P6umeYyiuNjnJs0z1i4Dj0Aa1n8ycgbRJO6R6AO8ik3VfXSZT/B3PFDuIRoc27+LmjqJh1kPfOoqnUTIGrznWHMStlCl2koU7/bQP5sI2aNNpXhwDZtcytZHYBLYPqOos/3CnQ+2rZjP9tTWv1nGqrhWxK3eVBdDkI4SmC2bLb8ChOuaxJeE8yXQZDNFRQCEyfUBPxSVxQltfVTyb+5z4EPZOd7JkqKm/r85iZFe6tg/oVJZMV9ZuG5i28qarpNayzqm19+aNKf6BV+lnIY5/0+ALz2rG7xx3KKC4oqO5Vov3qB3HUb1UsqNY7c8735VeVsu3/WPagF6oROMJxgH9Bx3v3jyaA95BAAAAAElFTkSuQmCC" alt="github"/></a></i>
+                <i class="fa fa-linkedin" aria-hidden="true"><a href="https://www.linkedin.com/in/hyroronquillo/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAyBJREFUWEetWNl14zAMHKiR9VYSu5Kkk8iVOJ3EW0mcRoR9BCEK4CUqjn5iUSQ4HAwOhnDwIQDcXeNnbG8EAoNlQH+LnXL+AUjWaGVZC20x3gId4e0+w/tYS8qE8LlPq64MB64+wxbah+maaH90gNZpzHwC8CpicTN0wP8RUDJUzO+S/01EH2mGbl4wxMxvAG6FKbtZBVB96zZCPcCFJrpvawlkyQu/F+Z3APOusH5nwkxEVxtskSEjQP5VQC2GGAwKLp5pUkBJ1uakwtDC7yDMmanA2D8ALy322ltn2vITN4aagCxDcbFZRGBeKhrTE6vROjg/qm8HAcUNLkSb8BbmEwFfeWQdC7AUlX2XySalhkqGGLexlFpRfuGy6WqLUS3styiLsfkAJF90NXQs6BKq0mV5zowM8TxYVQ7g+IGGxGUaZWanBwBNXmI0ZPGzfk+ZVrcLgg/zPzTLfzPwQnF+WJfLvi9qqyFTCnINJZcSSV6VR8oN40YTXSxtmkpOIHx6UDKr4TLjt76oregZE01SvoJ7mZcTTfRoFXdmDiwFUPEAMR8LoLxaOB04DUWaZqLpurYQFvDGkFdiYIuIQjC4do6ZA6BzgiOZ+kiURaiO1jqguPWiLOjpH0T0156WmUPRDjpbn3EN2UUT0dW4pqKhyMTGQFrtkuqeHKLzs2dvUc9lvPAXyEaTsque27MtgAbyUKS1YtRGmUZa3v87l4TWJgj5aZelnkX7pdXoUUAbQ7b9yEQ9zNCWb5KGJqIU9uGKszB3Gaq7rBZlNg+VmXogypKoOYV0EaGSq3w3ahu0taeuM+T9vB9lKVtvDNV7qbw9LhNjF1BhNPbcTQ0tHDpT+8z1w/hqP5CpLUN8B+zNAGcwzrpxipi1FCQ0ceDOwN1gDOVjLcz1WqalKPVIpfCO9oKZivJE599/lKnNfVHBWYzH8TqXdq5BSZhSlZ/bJ0//ZU1Q+1Ja9jS0NmB/+mz7ryM3jcyev0rrR1M6zOU6T29HkNXm5qHcsWcCoL2q9eXp8YqBCGj4BPY/X+1j5ppoEl4DVIzJgB8thp72bpuB/9nY/DZels/TAAAAAElFTkSuQmCC" alt="linkedIn"/></a></i>
+                <i class="fa fa-instagram" aria-hidden="true"><a href="https://www.instagram.com/notahyro/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAA/5JREFUWEeVWEtu3DAMffQhiu6SnKQz216g6Koz6x4ikzt0P5NdD1CgQFEgk0N03elF/ApKtK0PJTsCghiOTJGPj49UBMkSAExfOM/Lni27W8acb+2V/nr72uJLuic8Vy+Axqu2Q1sOtq/fsLULQBOhKqhVM2vJ3saFzKFelCTvlWGE7IS4g4TngLoudSc+L08A/gG4ich1Gy8We2G/5xA57gB5BLBrG82caG27AbiIyFO+IT+1mbKICM4NR24zEl1f1EaF4RXgUWS4eQiInyYBOb4kzijkzwCuIqKRVquVbgtM0f2S2hOR/eYqI3kwdPTgUw1zjxG+a+aYOnWyr48iciktuSkj+ZfAvURE9lsI6fOP+u1nAO8B/CDwSxYaKNkfZts9YaQuJTlxlMGiaOlApzRJfgXwzQ79KSIfI/o8K7dEAmOSNVWZHSYgxjxdDy3OhAInH0HcQ6AFoD/KtddB5KIBkfwE4Lud+DyIHMaROwiUn7r2pSRUKUv5U0dgmtOtwIDtDcReBrmR1JS9A/hHZPhtXFJKKKdPIsNTqNgpZWUmQtSReG6OSWrFTBGqh0FfDCFFadIrlQYt72tZ3uRoHiQF0+JQ0yHDmGQqB3kFCsBxDig4mxF3sTH1maqCk5RFF3sIcczkoMp/RCJoWCobc3lP/LeamSVlqQslejEDZQ4N8pAOSCTPBA5ikaffls9jQFLTK1cZZF/YiQgRJxnSVlL0srBHIReelJgl3KpPxhXtScdWxev7MdhJubjsLhHKC79QvYiQOVQjFPlTRWZGEg8VTQCaOicwh9STCT9lLYTGFxs/YhrcNXMxQzOdJdocWlrxbHoFoQOBs1VC3YssukXLgtpU+7op6+pQlbJRx4lpJInzjZIyGRZjhYU9uupeGKUhtqaqcXukToWxcMjahYqfpmOaDdUxbRn6Wzmjf59WLQ2xpTSqbEpZTsZJQ1xRS5xSgtvh+ZRGJTKgqXJH18ShowzDJb18Zb0slGveGprNNRm8PiRtIyA1iDzVI/9M9h2gGhWOrvjlNdc5JbEbDzpy+gO3X2bdt0HtJYzGukLApahWBnR8DeX9hgGtFLfWpYgjXyCxAXvTRJUym2OyETakoDOIBePlNdzZH8SSUIQU86POTTka3jVo0ZK5qxtJ9frSv2M5XpEqFQGROORH/idykH/kIqRej6TO1OlQHoKx0TZeYforXCwd7a2qd5VD6TnW/TVC/6JoHjoHl7fYG4HLUAipnzJzsVTtwrFpbtbfd4kwriH1KoNce//nyeahylqXvK0JyKysEH85q71xnQnujX8NFO/vK8GET5xe1jS1Ia31t1sgSw37TDRfl396LdyqS7SvT1tQycP4D3xcNkzt/mbvAAAAAElFTkSuQmCC" alt="instagram"/></a></i>
+            </div>
+        </div>
+        <div class="block block--hero-image"></div>
+    </section>
+    <section>
+        <div class="block block--sm block--heading">
+            <h1>Exp</br>eri</br>ence-</h1>
+        </div>
+        <div class="block block--content block--experience">
+            <article>
+                <p class="date">2018 - 2019</p>
+                <h4>Retail Sales Associate</h4>
+                <h5>Jazz Food Trading</h5>
+                <hr />
+            </article>
+            <article>
+                <p class="date">2020 - 2021</p>
+                <h4>Software Developer | IT Support</h4>
+                <h5>3FJ BUILDERS AND CONSTRUCTION CORP.</h5>
+                <hr />
+            </article>
+            <article>
+                <p class="date">2019 - present</p>
+                <h4>FREELANCER</h4>
+                <h5>@notahyro</h5>
+                <hr />
+            </article>
+        </div>
+    </section>
+    <section class="reverse">
+        <div class="block block--sm block--heading">
+            <h1>Skills-</h1>
+        </div>
+        <div class="block block--content block--skills">
+            <article>
+                <h4>Web development</h4>
+                <h5>HTML, CSS, JavaScript, Wordpress</h5>
+                <hr />
+            </article>
+            <article>
+                <h4>Technical</h4>
+                <h5>Software, Hardware</h5>
+                <hr />
+            </article>
+            <article>
+                <h4>Visual</h4>
+                <h5>Basic, Design</h5>
+                <hr />
+            </article>
+            <article>
+                <h4>Adobe</h4>
+                <h5>Photoshop, Premiere Pro, After Effects</h5>
+                <hr />
+            </article>
+        </div>
+    </section>
+    <section>
+        <div class="block block--sm block--heading">
+            <h1>Edu</br>cat</br>ion-</h1>
+        </div>
+        <div class="block block--content block--education">
+            <article>
+                <p class="date">2023 - Present</p>
+                <h4>Information Technology</h4>
+                <h5>Danford College Australia</h5>
+                <hr />
+            </article>
+            <article>
+                <p class="date">2021 - Present</p>
+                <h4>Computer Science</h4>
+                <h5>St. Clare College of Caloocan Philippines</h5>
+                <hr />
+            </article>
+        </div>
+    </section>
+    <section class="reverse">
+        <div class="block block--sm block--heading">
+            <h1>Work-</h1>
+        </div>
+        <div class="block block--content block--work">
+            <article>
+                <p class="date">2022</p>
+                <a href="https://3fjconstruction.com/" target="_blank" title="3FJ">
+                    <h4 class="work-link">3FJ BUILDERS AND CONSTRUCTION CORP.</h4>
+                  </a>                  
+                <h5>Website</h5>
+                <hr />
+            </article>
+            <article>
+                <p class="date">2023</p>
+                <h4>Portfolio</h4>
+                <h5>Yro Dienzo</h5>
+                <hr />
+            </article>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <p>Copyright © 2023 Yro. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
